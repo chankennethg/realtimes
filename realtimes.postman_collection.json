@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "c264bc46-f2b8-4ad0-9ed0-988c9108090d",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28918570"
+	},
+	"item": [
+		{
+			"name": "MatchStats",
+			"item": [
+				{
+					"name": "List Match Stats",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/match-stats?year=2023",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"match-stats"
+							],
+							"query": [
+								{
+									"key": "year",
+									"value": "2023",
+									"description": "Statistics Year | Required"
+								},
+								{
+									"key": "param_id",
+									"value": null,
+									"description": "Statistics ID",
+									"disabled": true
+								},
+								{
+									"key": "per_page",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List Stats Type",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

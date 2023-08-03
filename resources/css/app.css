@@ -1,0 +1,13 @@
+/*Fonts*/
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+/*Bootstrap*/
+@import 'bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+/*DataTables*/
+@import 'datatables.net-bs5';
+
+/*Select2*/
+@import 'select2/dist/css/select2.min.css';
+@import "select2-bootstrap-5-theme/dist/select2-bootstrap-5-theme.min.css";

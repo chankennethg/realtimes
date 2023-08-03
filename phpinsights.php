@@ -30,6 +30,7 @@ return [
 
         // Architecture
         \NunoMaduro\PhpInsights\Domain\Insights\ForbiddenNormalClasses::class,            //Normal classes are forbidden
+        \NunoMaduro\PhpInsights\Domain\Insights\ForbiddenTraits::class,                    //Traits are forbidden  
 
         // Style
         \PHP_CodeSniffer\Standards\Generic\Sniffs\Formatting\SpaceAfterCastSniff::class,  // Space after cast
