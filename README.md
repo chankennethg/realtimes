@@ -1,6 +1,4 @@
 # Football Player Statistics
-Simple implementation of an event reservation system
-
 Built with the following technologies
 - [Laravel 10](https://laravel.com/)
 - [Bootstrap v5.3](https://getbootstrap.com/)
